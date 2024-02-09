@@ -1,0 +1,25 @@
+{
+  "name": "default-lucence-plugin",
+  "version": "1.0.0",
+  "description": "Create plugin for lucence editor",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/node": "^20.11.16",
+    "rollup": "^4.9.6",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@toast-ui/editor": "^3.2.2"
+  }
+}
