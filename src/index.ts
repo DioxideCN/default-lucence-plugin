@@ -1,12 +1,11 @@
 import { AbstractPlugin } from "./libs/AbstractPlugin";
-import { PluginCommand, PluginRenderers, PluginToolbar, RendererContext } from "./libs/Plugin";
+import { PluginCommand, PluginRenderers, PluginToolbar } from "./libs/Plugin";
 
 export default class ThemeGravityDom extends AbstractPlugin {
     
     public readonly detail = {
         icon: 'https://host/icon.png',
-        name: 'plugin_name',
-        display: 'PluginName',
+        name: 'PluginName',
         author: 'Author',
         version: '1.0.0',
         description: 'Your plugin description',
