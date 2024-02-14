@@ -8,7 +8,7 @@
 
 1. [Node 18+](https://nodejs.org/en)
 2. [Halo 2.11+](https://docs.halo.run/developer-guide/core/prepare)
-3. Lucence Editor 1.0+
+3. [Lucence Editor 1.0+](https://github.com/DioxideCN/plugin-lucence-for-halo)
 
 ## 开发步骤
 
@@ -46,3 +46,14 @@
 5. 上传插件到Lucence Editor
 
     将位于 `/dist` 目录下构建完成的插件上传至你的 Halo 站点的 Lucence Editor 中并刷新页面
+
+## 额外的参考
+
+1. 在项目中您可以使用一些来自 FontAwesome 或 Codicon 的图标
+   1. FontAwesome: https://fontawesome.com/icons
+   2. Codicon: https://microsoft.github.io/vscode-codicons/dist/codicon.html
+2. Lucence Editor 的内核是 Toast UI Editor 其本身所涵盖的功能都可用过 `this.core` 调用，但处于安全考虑并没有在 `LucenceCore.ts` 中暴露这些接口
+   1. Toast UI Editor: https://github.com/nhn/tui.editor
+3. 若您在研究 Lucence Editor 本身的源码时遇到了问题或可以提供帮助的地方欢迎您通过以下渠道与我取得联系
+   1. GitHub Issues: https://github.com/DioxideCN/plugin-lucence-for-halo/issues
+   2. QQ Group: 776203334
